@@ -447,9 +447,8 @@ figure {
   cursor: pointer;
   fill: #2196f3;
 }
-
 a.hovercommunications:hover .communicationiconsvg {
-  fill: red;
+  fill: #2196f3;
 }
 
 a.hovercommunications:hover .communication {
