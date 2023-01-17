@@ -287,10 +287,6 @@ figcaption.fig-caption {
 .focus {
   color: #2196f3;
 }
-.communicationbox {
-  display: flex;
-  gap: 50px;
-}
 
 .filterscontainer {
   display: flex;
@@ -431,4 +427,31 @@ figure {
 .filterlist {
   padding-left: 0;
   margin: 0;
+}
+.mailmargin {
+  margin-right: 30px;
+}
+
+.communicationbox {
+  display: flex;
+  gap: 10px;
+}
+.hovercommunications {
+  display: flex;
+  gap: 10px;
+}
+.communicationiconsvg {
+  fill: #757575;
+}
+.communicationiconsvg:hover {
+  cursor: pointer;
+  fill: #2196f3;
+}
+
+a.hovercommunications:hover .communicationiconsvg {
+  fill: red;
+}
+
+a.hovercommunications:hover .communication {
+  color: #2196f3;
 }
