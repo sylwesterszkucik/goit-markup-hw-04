@@ -26,14 +26,20 @@ body {
 }
 
 .homepagebox {
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
-  background: #2f303a;
+  background: rgba(47, 48, 58, 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 50%
+    ),
+    url(../images/zdjeciatlo.jpg);
 }
 .homepagewelcomemessage {
   font-family: "Roboto";
@@ -432,13 +438,17 @@ figure {
   margin-right: 30px;
 }
 
-.communicationbox {
-  display: flex;
-  gap: 10px;
-}
 .hovercommunications {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   display: flex;
   gap: 10px;
+  color: #757575;
+  text-decoration: none;
 }
 .communicationiconsvg {
   fill: #757575;
@@ -447,10 +457,20 @@ figure {
   cursor: pointer;
   fill: #2196f3;
 }
-a.hovercommunications:hover .communicationiconsvg {
-  fill: #2196f3;
+
+.communicationbox {
+  display: flex;
+  gap: 10px;
 }
 
-a.hovercommunications:hover .communication {
+.communicationiconsvg {
+  fill: #757575;
+}
+
+.hovercommunications:hover {
   color: #2196f3;
+}
+
+.hovercommunications:hover .communicationiconsvg {
+  fill: #2196f3;
 }
