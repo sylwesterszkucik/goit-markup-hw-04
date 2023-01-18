@@ -421,7 +421,6 @@ figure {
   margin-bottom: 9px;
 }
 .footerstyles {
-  margin-top: 94px;
   display: flex;
   flex-direction: column;
 }
@@ -435,6 +434,27 @@ figure {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.joinUsFooter {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footerSocialMedia {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.OrderOfFooter {
+  display: flex;
 }
 .filterlist {
   padding-left: 0;
@@ -509,6 +529,61 @@ figure {
   cursor: pointer;
 }
 .iconCircle:hover {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50px;
+  background-color: #2196f3;
+  fill: white;
+  cursor: pointer;
+}
+.customerLogoBox {
+  box-sizing: border-box;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.customerLogoBox:hover {
+  fill: #2196f3;
+  cursor: pointer;
+  border: 1px solid #2196f3;
+}
+.customerLogoSvg {
+  fill: #afb1b8;
+}
+
+.customerLogoBox:hover .customerLogoSvg,
+.customerLogoBox:focus .customerLogoSvg {
+  fill: #2196f3;
+  cursor: pointer;
+}
+.ourCustomersList {
+  margin: 0px;
+  padding: 0px;
+}
+.logosOrganizer {
+  display: flex;
+  justify-content: space-between;
+}
+.outCustomersPadding {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.iconCircleFooter {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  fill: white;
+  cursor: pointer;
+}
+.iconCircleFooter:hover {
   width: 44px;
   height: 44px;
   padding: 12px;
